@@ -1,5 +1,5 @@
 algo = input("Digite algo: ")
-print('O tipo primitico desse valor é: {}'.format(type(algo)))
+print('O tipo primitivo desse valor é: {}'.format(type(algo)))
 print('{} é numero? {}'.format(algo,algo.isnumeric()))
 print('{} é alfabetico? {}'.format(algo,algo.isalpha()))
 print('{} é numerico ou alfabetico? {}'.format(algo,algo.isalnum()))
